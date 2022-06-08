@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.ControllerResultOne">
+   <children>
+      <Button fx:id="result" layoutX="184.0" layoutY="360.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="342.0" text="Перейти к результатам 2-го этапа">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableActiv" prefHeight="295.0" prefWidth="279.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tableRes" layoutX="287.0" prefHeight="295.0" prefWidth="537.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <Label layoutX="39.0" layoutY="293.0" text="Данные о показателях активности &#10;и надбавках агентов" />
+      <Label layoutX="415.0" layoutY="302.0" text="Результаты 1-го этапа" />
+      <Label layoutX="7.0" layoutY="326.0" text="*ВГ - верхняя граница&#10;надбавки&#10;*НГ- нижняя граница&#10;надбавки" />
+   </children>
+</AnchorPane>

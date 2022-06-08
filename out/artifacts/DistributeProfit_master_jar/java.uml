@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/dasdassand/Downloads/DistributeProfit-master/src/main/java</OriginalElement>
+  <nodes>
+    <node x="517.2022471910111" y="1490.0">Simplex.SimplexMethods</node>
+    <node x="206.2022471910111" y="1512.0">DataBank.UnionString</node>
+    <node x="35.00421348314592" y="1910.0">App.ControllerResultOne</node>
+    <node x="398.0" y="2243.0">App.Application</node>
+    <node x="612.0" y="2243.0">Launcher</node>
+    <node x="1219.1474719101122" y="339.0">Backpack.Agent</node>
+    <node x="876.2022471910111" y="1534.0">DataBank.TMPSimplex</node>
+    <node x="-127.0" y="2243.0">App.ControllerRemoveAgent</node>
+    <node x="1281.6474719101122" y="728.0">App.ControllerAddAgent</node>
+    <node x="1981.6474719101125" y="-14.0">App.ControllerRemoveProject</node>
+    <node x="1134.202247191011" y="1524.0">Backpack.Backpack</node>
+    <node x="1680.6474719101122" y="385.0">App.ControllerAddProject</node>
+    <node x="157.0" y="2243.0">FileReader.ReaderTXT</node>
+    <node x="-127.0" y="638.0">DataBank.ActivePOJO</node>
+    <node x="1472.202247191011" y="1170.0">App.ControllerStart</node>
+    <node x="1324.8974719101122" y="1954.0">App.ControllerAddWindowOne</node>
+    <node x="613.7022471910111" y="1025.0">DataBank.Bank</node>
+    <node x="1205.5224719101122" y="-14.0">Backpack.Project</node>
+    <node x="652.4522471910111" y="693.0">DataBank.UnionAgents</node>
+    <node x="589.5042134831458" y="1875.0">App.ControllerRes</node>
+    <node x="1515.6474719101122" y="728.0">FileScanner.FileXLS</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="App.ControllerResultOne" target="DataBank.ActivePOJO" relationship="CREATE">
+      <point x="74.0" y="-126.5" />
+      <point x="257.0042134831459" y="1854.0" />
+      <point x="261.0042134831459" y="1854.0" />
+      <point x="261.0042134831459" y="1834.0" />
+      <point x="43.0" y="1834.0" />
+      <point x="43.0" y="1003.0" />
+      <point x="-39.25" y="1003.0" />
+      <point x="-87.75" y="161.5" />
+    </edge>
+    <edge source="Simplex.SimplexMethods" target="Backpack.Agent" relationship="TO_MANY">
+      <point x="0.0" y="-161.5" />
+      <point x="686.7022471910111" y="1468.0" />
+      <point x="1245.702247191011" y="1468.0" />
+      <point x="1245.202247191011" y="596.0" />
+      <point x="1274.3974719101122" y="596.0" />
+      <point x="-55.25" y="117.5" />
+    </edge>
+    <edge source="FileScanner.FileXLS" target="Backpack.Agent" relationship="CREATE">
+      <point x="1.1368683772161603E-13" y="-71.5" />
+      <point x="1670.1474719101122" y="616.0" />
+      <point x="1388.6474719101122" y="616.0" />
+      <point x="1388.6474719101122" y="606.0" />
+      <point x="1384.8974719101122" y="606.0" />
+      <point x="55.25" y="117.5" />
+    </edge>
+    <edge source="App.ControllerResultOne" target="DataBank.UnionString" relationship="CREATE">
+      <point x="74.0" y="-126.5" />
+      <point x="257.0042134831459" y="1854.0" />
+      <point x="261.0042134831459" y="1854.0" />
+      <point x="261.0042134831459" y="1844.0" />
+      <point x="351.7022471910111" y="1844.0" />
+      <point x="0.0" y="139.5" />
+    </edge>
+    <edge source="App.ControllerAddAgent" target="Backpack.Agent" relationship="CREATE">
+      <point x="0.0" y="-71.5" />
+      <point x="1388.6474719101122" y="606.0" />
+      <point x="1384.8974719101122" y="606.0" />
+      <point x="55.25" y="117.5" />
+    </edge>
+    <edge source="App.ControllerStart" target="FileScanner.FileXLS" relationship="CREATE">
+      <point x="0.0" y="-60.5" />
+      <point x="1644.702247191011" y="1003.0" />
+      <point x="1670.1474719101122" y="1003.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="DataBank.Bank" target="DataBank.UnionAgents" relationship="TO_MANY">
+      <point x="0.0" y="-205.5" />
+      <point x="-107.25" y="106.5" />
+    </edge>
+    <edge source="Backpack.Backpack" target="Backpack.Agent" relationship="TO_MANY">
+      <point x="100.5" y="-127.5" />
+      <point x="1435.702247191011" y="1468.0" />
+      <point x="1271.1474719101122" y="1468.0" />
+      <point x="1271.1474719101122" y="606.0" />
+      <point x="1245.202247191011" y="606.0" />
+      <point x="1245.202247191011" y="596.0" />
+      <point x="1274.3974719101122" y="596.0" />
+      <point x="-55.25" y="117.5" />
+    </edge>
+    <edge source="DataBank.UnionAgents" target="Backpack.Agent" relationship="TO_MANY">
+      <point x="0.0" y="-106.5" />
+      <point x="866.9522471910111" y="616.0" />
+      <point x="1245.202247191011" y="616.0" />
+      <point x="1245.202247191011" y="596.0" />
+      <point x="1274.3974719101122" y="596.0" />
+      <point x="-55.25" y="117.5" />
+    </edge>
+    <edge source="App.ControllerRes" target="DataBank.TMPSimplex" relationship="TO_MANY">
+      <point x="95.25" y="-161.5" />
+      <point x="875.2542134831458" y="1854.0" />
+      <point x="1054.702247191011" y="1854.0" />
+      <point x="59.5" y="117.5" />
+    </edge>
+    <edge source="Simplex.SimplexMethods" target="DataBank.Bank" relationship="TO_ONE">
+      <point x="0.0" y="-161.5" />
+      <point x="-73.0" y="205.5" />
+    </edge>
+    <edge source="App.ControllerAddProject" target="Backpack.Project" relationship="CREATE">
+      <point x="0.0" y="-71.5" />
+      <point x="1808.6474719101122" y="318.0" />
+      <point x="1739.3974719101122" y="318.0" />
+      <point x="1739.3974719101122" y="308.0" />
+      <point x="1423.0224719101122" y="308.0" />
+      <point x="72.5" y="150.5" />
+    </edge>
+    <edge source="Backpack.Backpack" target="DataBank.Bank" relationship="CREATE">
+      <point x="-100.5" y="-127.5" />
+      <point x="1234.702247191011" y="1458.0" />
+      <point x="832.7022471910111" y="1458.0" />
+      <point x="73.0" y="205.5" />
+    </edge>
+    <edge source="DataBank.UnionAgents" target="Backpack.Project" relationship="TO_MANY">
+      <point x="0.0" y="-106.5" />
+      <point x="866.9522471910111" y="318.0" />
+      <point x="1112.8974719101122" y="318.0" />
+      <point x="1112.8974719101122" y="308.0" />
+      <point x="1278.0224719101122" y="308.0" />
+      <point x="-72.5" y="150.5" />
+    </edge>
+    <edge source="App.ControllerAddWindowOne" target="Backpack.Backpack" relationship="CREATE">
+      <point x="0.0" y="-82.5" />
+      <point x="1515.3974719101122" y="1854.0" />
+      <point x="1335.202247191011" y="1854.0" />
+      <point x="0.0" y="127.5" />
+    </edge>
+    <edge source="Backpack.Backpack" target="DataBank.UnionAgents" relationship="CREATE">
+      <point x="-100.5" y="-127.5" />
+      <point x="1234.702247191011" y="1458.0" />
+      <point x="1185.6292134831458" y="1458.0" />
+      <point x="1185.6292134831458" y="993.0" />
+      <point x="974.2022471910111" y="993.0" />
+      <point x="107.25" y="106.5" />
+    </edge>
+    <edge source="App.ControllerRes" target="Simplex.SimplexMethods" relationship="CREATE">
+      <point x="-95.25" y="-161.5" />
+      <point x="684.7542134831458" y="1854.0" />
+      <point x="596.0042134831459" y="1854.0" />
+      <point x="596.0042134831459" y="1844.0" />
+      <point x="686.7022471910111" y="1844.0" />
+      <point x="0.0" y="161.5" />
+    </edge>
+    <edge source="App.ControllerResultOne" target="DataBank.ActivePOJO" relationship="TO_MANY">
+      <point x="-74.0" y="-126.5" />
+      <point x="109.00421348314592" y="1854.0" />
+      <point x="54.0" y="1854.0" />
+      <point x="54.0" y="983.0" />
+      <point x="136.25" y="983.0" />
+      <point x="87.74999999999994" y="161.5" />
+    </edge>
+    <edge source="FileScanner.FileXLS" target="Backpack.Project" relationship="CREATE">
+      <point x="1.1368683772161603E-13" y="-71.5" />
+      <point x="1670.1474719101122" y="318.0" />
+      <point x="1739.3974719101122" y="318.0" />
+      <point x="1739.3974719101122" y="308.0" />
+      <point x="1423.0224719101122" y="308.0" />
+      <point x="72.5" y="150.5" />
+    </edge>
+    <edge source="App.ControllerRes" target="DataBank.TMPSimplex" relationship="CREATE">
+      <point x="-95.25" y="-161.5" />
+      <point x="684.7542134831458" y="1854.0" />
+      <point x="596.0042134831459" y="1854.0" />
+      <point x="596.0042134831459" y="1844.0" />
+      <point x="935.7022471910111" y="1844.0" />
+      <point x="-59.5" y="117.5" />
+    </edge>
+    <edge source="App.ControllerAddWindowOne" target="FileScanner.FileXLS" relationship="CREATE">
+      <point x="0.0" y="-82.5" />
+      <point x="1515.3974719101122" y="1854.0" />
+      <point x="1827.702247191011" y="1854.0" />
+      <point x="1827.702247191011" y="1003.0" />
+      <point x="1670.1474719101122" y="1003.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="App.ControllerRes" target="DataBank.UnionString" relationship="CREATE">
+      <point x="-95.25" y="-161.5" />
+      <point x="684.7542134831458" y="1854.0" />
+      <point x="596.0042134831459" y="1854.0" />
+      <point x="596.0042134831459" y="1834.0" />
+      <point x="351.7022471910111" y="1834.0" />
+      <point x="0.0" y="139.5" />
+    </edge>
+    <edge source="DataBank.Bank" target="DataBank.ActivePOJO" relationship="TO_MANY">
+      <point x="0.0" y="-205.5" />
+      <point x="759.7022471910111" y="993.0" />
+      <point x="54.0" y="993.0" />
+      <point x="54.0" y="983.0" />
+      <point x="136.25" y="983.0" />
+      <point x="87.74999999999994" y="161.5" />
+    </edge>
+    <edge source="DataBank.Bank" target="Backpack.Agent" relationship="TO_MANY">
+      <point x="0.0" y="-205.5" />
+      <point x="759.7022471910111" y="1003.0" />
+      <point x="1245.202247191011" y="1003.0" />
+      <point x="1245.202247191011" y="596.0" />
+      <point x="1274.3974719101122" y="596.0" />
+      <point x="-55.25" y="117.5" />
+    </edge>
+    <edge source="Backpack.Agent" target="Backpack.Project" relationship="TO_MANY">
+      <point x="0.0" y="-117.5" />
+      <point x="1329.6474719101122" y="318.0" />
+      <point x="1112.8974719101122" y="318.0" />
+      <point x="1112.8974719101122" y="308.0" />
+      <point x="1278.0224719101122" y="308.0" />
+      <point x="-72.5" y="150.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.20443268150893656" showDependencies="true" x="1166.5002365787475" y="1156.499960570209" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
